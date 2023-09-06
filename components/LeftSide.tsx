@@ -30,7 +30,10 @@ const LeftSide = () => {
           </span>
         </a>
 
-        <a href="https://www.instagram.com/dishaaa._.23/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank">
+        <a
+          href="https://www.instagram.com/dishaaa._.23/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+          target="_blank"
+        >
           <span
             className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex
            items-center justify-center hover:text-textGreen cursor-pointer 
@@ -40,7 +43,7 @@ const LeftSide = () => {
           </span>
         </a>
       </div>
-      <div></div>
+      <div className="w-[2px] h-32 bg-textDark"></div>
     </div>
   );
 };
