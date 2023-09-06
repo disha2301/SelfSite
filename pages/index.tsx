@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import RightSide from "@/components/RightSide";
 import { Inter } from "next/font/google";
 import { motion } from "framer-motion";
+import Banner from "@/components/Banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,9 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className="h-[88vh] mx:auto p-4">middle</div>
+          <div className="h-[88vh] mx-auto p-4">
+            <Banner/>
+          </div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
