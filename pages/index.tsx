@@ -4,6 +4,7 @@ import RightSide from "@/components/RightSide";
 import { Inter } from "next/font/google";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
+import About from "@/components/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +15,7 @@ export default function Home() {
       <link rel="icon" href="/dishaslogo.jpg"></link>
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
         <Navbar />
-        <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
+        <div className="w-full h-[88vh] flex gap-20 justify-between">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -24,7 +25,8 @@ export default function Home() {
             <LeftSide />
           </motion.div>
           <div className="h-[88vh] mx-auto p-4">
-            <Banner/>
+            <Banner />
+            <About/>
           </div>
           <motion.div
             initial={{ opacity: 0 }}
