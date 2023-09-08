@@ -1,5 +1,4 @@
 import React from "react";
-// import { TbBrandGithub } from "react-icons/tb";
 import { RxGithubLogo } from "react-icons/rx";
 import { SiInstagram } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
