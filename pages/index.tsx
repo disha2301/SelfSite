@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,8 @@ export default function Home() {
           </motion.div>
           <div className="h-[88vh] mx-auto p-4">
             <Banner />
-            <About/>
+            <About />
+            <Experience />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
