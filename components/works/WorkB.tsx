@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
 
-const WorkA = () => {
+const WorkB = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -56,4 +56,4 @@ const WorkA = () => {
   );
 };
 
-export default WorkA;
+export default WorkB;
