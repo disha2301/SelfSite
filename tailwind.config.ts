@@ -42,6 +42,7 @@ const config: Config = {
     },
   },
   plugins: [
+    require('tailwind-scrollbar'),
     // Add any Tailwind CSS plugins here if needed
   ],
 };

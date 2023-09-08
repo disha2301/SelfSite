@@ -3,8 +3,26 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
+import { useRef } from "react";
 
 const Navbar = () => {
+  const ref = useRef<string | any>("");
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+    //update the class name of the clicked link
+    const links = document.querySelectorAll(".nav-link");
+    links.forEach((link) => {
+      link.classList.remove("active");
+    });
+    e.currentTarget.classList.add("active");
+  };
+
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
@@ -19,6 +37,7 @@ const Navbar = () => {
           <ul className="flex text-[13px] gap-7">
             <Link
               href="#home"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark
             hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
@@ -32,6 +51,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="#about"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark
             hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
@@ -47,6 +67,7 @@ const Navbar = () => {
 
             <Link
               href="#experience"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark
             hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
@@ -62,6 +83,7 @@ const Navbar = () => {
 
             <Link
               href="#project"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark
             hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
@@ -76,7 +98,8 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="#contac"
+              href="#contact"
+              onClick={handleScroll}
               className="flex items-center gap-1 font-medium text-textDark
             hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
