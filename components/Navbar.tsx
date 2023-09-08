@@ -1,7 +1,7 @@
 import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
@@ -10,6 +10,7 @@ const Navbar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
+    const [showMenu, setShowMenu] = useState(false);
     const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({
@@ -126,8 +127,20 @@ const Navbar = () => {
           </a>
         </div>
         {/* hamburger icon section */}
-        <div className="w-6 h-5 flex-col justify-betweenitems-center ml:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group">
+        <div
+          onClick={() => setshowMenu(true)}
+          className="w-6 h-5 flex-col justify-betweenitems-center ml:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group"
+        >
           <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+          <div>
+            {showMenu && (
+              <div
+                ref={(node) => (ref.current = node)}
+                className="absolute mdl:hidden top-0 right-0 w-full h-screen
+              bg-black bg-opacity-50 flex flex-col items-end"
+              ></div>
+            )}
+          </div>
         </div>
       </div>
     </div>
