@@ -8,6 +8,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Project from "@/components/Project";
 import Archive from "@/components/Archive";
+import Contact from "@/components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,6 +34,7 @@ export default function Home() {
             <Experience />
             <Project />
             <Archive />
+            <Contact />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
