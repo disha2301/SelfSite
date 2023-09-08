@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Project from "@/components/Project";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function Home() {
             <Banner />
             <About />
             <Experience />
+            <Project />
           </div>
           <motion.div
             initial={{ opacity: 0 }}
