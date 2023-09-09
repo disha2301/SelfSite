@@ -56,9 +56,11 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        className="w-40 h-10 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
       >
-        Check out my project!
+        <a href="/assets/disha.pdf" target="_blank">
+          Resume
+        </a>
       </motion.button>
     </section>
   );

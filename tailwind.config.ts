@@ -33,7 +33,7 @@ const config: Config = {
         navbarShadow: "0 10px 30px -10px rgba(2,12,27,0.7)",
       },
       colors: {
-        bodyColor: "#0A192F",
+        bodyColor: "#1e1b4b",
         textGreen: "#64ffda",
         textDark: "#8892b0",
         textLight: "#ccd6f6",
@@ -42,7 +42,7 @@ const config: Config = {
     },
   },
   plugins: [
-    require('tailwind-scrollbar'),
+    require("tailwind-scrollbar"),
     // Add any Tailwind CSS plugins here if needed
   ],
 };
