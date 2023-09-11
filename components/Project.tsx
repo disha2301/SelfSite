@@ -151,7 +151,7 @@ const Project = () => {
               <h3 className="text-2xl font-bold">Project</h3>
               <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 xl:-ml-16 border border-2 rounded-md">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                facere nobis magnam incidunt est enim eligendi nihil velit,
+                facere nobis magnam incidunt est enim eligen nihil velit,
                 commodi quibusdam,
                 <span className="text-textGreen">
                   asperiores aliquam ut nisi illo ratione
