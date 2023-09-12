@@ -10,10 +10,13 @@ const WorkD = () => {
       className="w-[900px]"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer <span className="text-textGreen tracking-wide">@WorkA</span>
+        Technical Team Member{" "}
+        <span className="text-textGreen tracking-wide">
+          @Google Developers SRM
+        </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - Present
+        Nov 2021 - Present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">

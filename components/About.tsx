@@ -13,18 +13,15 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
-            vero nihil aut consequuntur, eligendi, totam ipsum fugiat odit animi
-            expedita ullam tenetur{" "}
-            <span className="text-textGreen">
-              eum adipisci aliquam nam? Non excepturi
-            </span>{" "}
-            blanditiis culpa fugit numquam in, veritatis, temporibus nisi
-            recusandae omnis autem quia.
+            Disha is a quick learner, eager to grow her understanding of web
+            development, and she's also eyeing a future in the cloud. She's got
+            some serious{" "}
+            <span className="text-textGreen">website-building skills</span> and
+            finds the coding universe pretty mind-blowing!
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis,
-            eum.
+            Being a Full-Stack web developer, the languages that comforts her
+            includes..
           </p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">

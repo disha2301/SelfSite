@@ -10,22 +10,31 @@ const WorkC = () => {
       className="w-[900px]"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer <span className="text-textGreen tracking-wide">@WorkA</span>
+        Technical Associate Lead{" "}
+        <span className="text-textGreen tracking-wide">@TEDxSRMIST</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - Present
+        Sept 2022 - March 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          Engaged in the development of the events portal website and made
+          contributions to the registration and RSVP processes.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Evolved from a Technical Team member to a Technical Associate Lead
+          contributing to the successful completion of the "EUNOIA - The
+          Dedicated pathway to the right speech"
+        </li>
+
+        {/* <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
@@ -41,16 +50,7 @@ const WorkC = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
           voluptatum distinctio ratione explicabo iusto! Officiis temporibus
           aliquam harum hic totam.
-        </li>
-
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1">
-            <TiArrowForward />
-          </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
-        </li>
+        </li> */}
       </ul>
     </motion.div>
   );

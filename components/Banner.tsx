@@ -34,12 +34,16 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium eum
-        dolorum odio, dolorem repellat voluptatum beatae distinctio inventore
-        cum, ullam animi reiciendis, qui facilis blanditiis nulla. Amet iusto
-        quibusdam fugiat consequuntur impedit doloribus pariatur esse incidunt
-        recusandae, maxime blanditiis voluptas ipsum eos. Perspiciatis, ipsa ut?
-        <a href="https://www.google.com/" target="_blank">
+        Behold! This website spills the beans about Disha Yadav, the CSE
+        undergrad who's currently rocking her BTech in computer science
+        engineering with a focus on cloud computing at SRM Institute of Science
+        and Technology. When she's not cracking codes, she's out there on a wild
+        adventure to quench her insatiable thirst for knowledge. Coding is her
+        version of a leisurely stroll in the park! <br />
+        <a
+          href="https://instagram.com/clickkkittt?igshid=MWZjMTM2ODFkZg=="
+          target="_blank"
+        >
           <span
             className="text-textGreen inline-flex relative cursor-pointer h-7
             overflow-x-hidden group"

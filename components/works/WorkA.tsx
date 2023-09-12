@@ -10,46 +10,48 @@ const WorkA = () => {
       className="w-[900px]"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Engineer <span className="text-textGreen tracking-wide">@WorkA</span>
+        Technical Lead{" "}
+        <span className="text-textGreen tracking-wide">
+          @ALexa Developers SRM
+        </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2023 - Present
+        July 2023 - Present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          Known for edge-of-the-seat events, the aim of ADS is to resonate with
+          a coterie of developers. Powered by Amazon Alexa, we form the official
+          Alexa Developers Club in SRMIST.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          Disha's continuous improvement has taken her from a technical team
+          member to an executive and eventually to a role as a technical leader.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          Being part of the clubs has opened up numerous opportunities for her,
+          including events such as Skilalexa, Graph-QL, Tech-Next-Gen, and many
+          others. These experiences have contributed significantly to her
+          personal growth and development along the way.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          She has worked under German mentorship, mastering Alexa Development
+          console and voice command comprehension via a project work at ADS.
         </li>
       </ul>
     </motion.div>
