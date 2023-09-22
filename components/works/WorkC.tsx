@@ -30,7 +30,7 @@ const WorkC = () => {
             <TiArrowForward />
           </span>
           Evolved from a Technical Team member to a Technical Associate Lead
-          contributing to the successful completion of the "EUNOIA - The
+          contributing to the successful completion of the &quot;EUNOIA - The
           Dedicated pathway to the right speech"
         </li>
 

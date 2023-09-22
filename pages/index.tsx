@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <title>Disha's</title>
+      <title>Disha&apos;s</title>
       <link rel="icon" href="/dishaslogo.jpg"></link>
       <main
         className="bg-bodyColor  w-full h-screen font-bodyFont text-textLight 

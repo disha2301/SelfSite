@@ -35,9 +35,9 @@ const Banner = () => {
       >
         {" "}
         Behold! This website spills the beans about Disha Yadav, the CSE
-        undergrad who's currently rocking her BTech in computer science
+        undergrad who&apos;s currently rocking her BTech in computer science
         engineering with a focus on cloud computing at SRM Institute of Science
-        and Technology. When she's not cracking codes, she's out there on a wild
+        and Technology. When she&apos;s not cracking codes, she&apos;s out there on a wild
         adventure to quench her insatiable thirst for knowledge. Coding is her
         version of a leisurely stroll in the park! <br />
         <a

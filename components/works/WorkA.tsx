@@ -32,7 +32,7 @@ const WorkA = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Disha's continuous improvement has taken her from a technical team
+          Disha&apos;s continuous improvement has taken her from a technical team
           member to an executive and eventually to a role as a technical leader.
         </li>
 
