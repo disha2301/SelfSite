@@ -31,7 +31,7 @@ const WorkC = () => {
           </span>
           Evolved from a Technical Team member to a Technical Associate Lead
           contributing to the successful completion of the &quot;EUNOIA - The
-          Dedicated pathway to the right speech"
+          Dedicated pathway to the right speech&quot;
         </li>
 
         {/* <li className="text-base flex gap-2 text-textDark">
