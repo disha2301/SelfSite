@@ -1,135 +1,95 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import WorkA from "./works/WorkA";
 import WorkB from "./works/WorkB";
 import WorkC from "./works/WorkC";
 import WorkD from "./works/workD";
-import WorkE from "./works/WorkE";
 
 const Experience = () => {
-  const [workWorkA, setWorkA] = useState(true);
-  const [workWorkB, setWorkB] = useState(false);
-  const [workWorkC, setWorkC] = useState(false);
-  const [workWorkD, setWorkD] = useState(false);
-  const [workWorkE, setWorkE] = useState(false);
+  const [workA, setWorkA] = useState(false);
+  const [workB, setWorkB] = useState(false);
+  const [workC, setWorkC] = useState(false);
+  const [workD, setWorkD] = useState(true);
 
-  const handleWorkA = () => {
+  const handleA = () => {
     setWorkA(true);
     setWorkB(false);
     setWorkC(false);
     setWorkD(false);
-    setWorkE(false);
   };
-  const handleWorkB = () => {
+
+  const handleB = () => {
     setWorkA(false);
     setWorkB(true);
     setWorkC(false);
     setWorkD(false);
-    setWorkE(false);
   };
-  const handleWorkC = () => {
+
+  const handleC = () => {
     setWorkA(false);
     setWorkB(false);
     setWorkC(true);
     setWorkD(false);
-    setWorkE(false);
   };
-  const handleWorkD = () => {
+  const handleD = () => {
     setWorkA(false);
     setWorkB(false);
     setWorkC(false);
     setWorkD(true);
-    setWorkE(false);
   };
-  const handleWorkE = () => {
-    setWorkA(false);
-    setWorkB(false);
-    setWorkC(false);
-    setWorkD(false);
-    setWorkE(true);
-  };
-
   return (
     <section
       id="experience"
-      className="max-w-containersxs ml-32 py-10 lgl:py-24 px-4"
+      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
     >
-      <SectionTitle
-        title="What Professional Experience she has?"
-        titleNo="02"
-      />
+      <SectionTitle title="Where I have Worked" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
-            onClick={handleWorkA}
+            onClick={handleD}
             className={`${
-              workWorkA
+              workD
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            }
-            border-l-2 bg-transparent
-            hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Barclays
+            GDSC
           </li>
-
           <li
-            onClick={handleWorkB}
+            onClick={handleC}
             className={`${
-              workWorkB
+              workC
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            }
-            border-l-2 bg-transparent
-            hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Fidelity
+            TEDx
           </li>
-
           <li
-            onClick={handleWorkC}
+            onClick={handleB}
             className={`${
-              workWorkC
+              workB
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            }
-            border-l-2 bg-transparent
-            hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Wells Fargo
+            IEEE
           </li>
-
           <li
-            onClick={handleWorkD}
+            onClick={handleA}
             className={`${
-              workWorkD
+              workA
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            }
-            border-l-2 bg-transparent
-            hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            BNY
-          </li>
-
-          <li
-            onClick={handleWorkE}
-            className={`${
-              workWorkE
-                ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
-            }
-            border-l-2 bg-transparent
-            hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
-          >
-            NatWest
+            ADS
           </li>
         </ul>
-        {workWorkA && <WorkA />}
-        {workWorkB && <WorkB />}
-        {workWorkC && <WorkC />}
-        {workWorkD && <WorkD />}
-        {workWorkE && <WorkE />}
+        {workD && <WorkD />}
+        {workC && <WorkC />}
+        {workB && <WorkB />}
+        {workA && <WorkA />}
       </div>
     </section>
   );

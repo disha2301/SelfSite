@@ -9,13 +9,13 @@ const About = () => {
       id="about"
       className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
     >
-      <SectionTitle title="Who&apos;s Disha?" titleNo="01" />
+      <SectionTitle title="Who's Disha?" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
-        <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
+        <div className="w-full lgl:w-2/3 text-justify text-textDark font-medium flex flex-col gap-4">
           <p>
             Disha is a quick learner, eager to grow her understanding of web
-            development, and she&apos;s also eyeing a future in the cloud. She&apos;s got
-            some serious{" "}
+            development, and she&apos;s also eyeing a future in the cloud.
+            She&apos;s got some serious{" "}
             <span className="text-textGreen">website-building skills</span> and
             finds the coding universe pretty mind-blowing!
           </p>
@@ -78,7 +78,7 @@ const About = () => {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex p1-6 lgl:pl-0">
               <Image
-                className="rounded-lg h-full object-cover"
+                className="rounded-lg h-full object-cover lg:mx-0 mx-6"
                 src="/assets/images/profileImage.jpg"
                 width={2000}
                 height={2000}
