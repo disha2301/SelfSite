@@ -37,20 +37,19 @@ const Project = () => {
               </p>
               <h3 className="text-2xl font-bold">Project</h3>
               <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 xl:-ml-16 rounded-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                facere nobis magnam incidunt est enim eligendi nihil velit,
-                commodi quibusdam,
+                Social media website design using React, HTML, and CSS. React
+                social media app using React Hooks, Context API, Dark Mode,
+                Responsive design.{" "}
                 <span className="text-textGreen">
-                  asperiores aliquam ut nisi illo ratione
+                  To connect people at real-time{" "}
                 </span>
-                illum saepe, nesciunt perferendis?
+                with full integration of backend and frontend.
               </p>
               <ul
                 className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 
             md:gap-5 justify-between text-textDark"
               >
                 <li>Nextjs</li>
-                <li>TypeScript</li>
                 <li>Next-auth</li>
                 <li>Tailwind</li>
                 <li>Vercel Deployment</li>
@@ -96,23 +95,22 @@ const Project = () => {
               </p>
               <h3 className="text-2xl font-bold">Project</h3>
               <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                facere nobis magnam incidunt est enim eligendi nihil velit,
-                commodi quibusdam,
-                <span className="text-textGreen">
-                  asperiores aliquam ut nisi illo ratione
-                </span>
-                illum saepe, nesciunt perferendis?
+                {" "}
+                Own version of Netflix made with the help of stacks like
+                ReactJs,JavaScript and fetching the movie content and video from
+                the TMDB API.{" "}
+                <span className="text-textGreen">Renders real-time data </span>
+                thereby fetching content from the Application Programming
+                Interface.
               </p>
               <ul
                 className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 
             md:gap-5 justify-between text-textDark"
               >
-                <li>Nextjs</li>
-                <li>TypeScript</li>
-                <li>Next-auth</li>
-                <li>Tailwind</li>
-                <li>Vercel Deployment</li>
+                <li>Reactjs</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>API</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
@@ -155,21 +153,20 @@ const Project = () => {
               </p>
               <h3 className="text-2xl font-bold">Project</h3>
               <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 xl:-ml-16 rounded-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                facere nobis magnam incidunt est enim eligen nihil velit,
-                commodi quibusdam,
-                <span className="text-textGreen">
+                Registration Portal for the event at IEEE SRM SB.Contributed as
+                a Front-end Developer on the website built using React JS and
+                Tailwind.
+                {/* <span className="text-textGreen">
                   asperiores aliquam ut nisi illo ratione
                 </span>
-                illum saepe, nesciunt perferendis?
+                illum saepe, nesciunt perferendis? */}
               </p>
               <ul
                 className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 
             md:gap-5 justify-between text-textDark"
               >
-                <li>Nextjs</li>
+                <li>Reactjs</li>
                 <li>TypeScript</li>
-                <li>Next-auth</li>
                 <li>Tailwind</li>
                 <li>Vercel Deployment</li>
               </ul>
@@ -214,23 +211,21 @@ const Project = () => {
               </p>
               <h3 className="text-2xl font-bold">Project</h3>
               <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                facere nobis magnam incidunt est enim eligendi nihil velit,
-                commodi quibusdam,
+                Integrating Alexa Skills with Chat GPT,Under German mentorship,
+                mastering Alexa Development console and voice command
+                comprehension{" "}
                 <span className="text-textGreen">
-                  asperiores aliquam ut nisi illo ratione
+                  understanding working of intents and voice based response
+                  delivery
                 </span>
-                illum saepe, nesciunt perferendis?
               </p>
               <ul
                 className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 
             md:gap-5 justify-between text-textDark"
               >
-                <li>Nextjs</li>
+                <li>Alexa Development Console</li>
                 <li>TypeScript</li>
-                <li>Next-auth</li>
-                <li>Tailwind</li>
-                <li>Vercel Deployment</li>
+                <li>Python</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
