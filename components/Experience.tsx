@@ -3,7 +3,7 @@ import SectionTitle from "./SectionTitle";
 import WorkA from "./works/WorkA";
 import WorkB from "./works/WorkB";
 import WorkC from "./works/WorkC";
-import WorkD from "./works/workD";
+import WorkD from "./works/WorkD";
 
 const Experience = () => {
   const [workA, setWorkA] = useState(false);

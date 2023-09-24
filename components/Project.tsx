@@ -2,6 +2,11 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import { projectImage } from "@/public/assets";
+import connectopia from "@/public/assets/images/connectopia.png";
+import netflix from "@/public/assets/images/netflix.jpg";
+import jarvis from "@/public/assets/images/jarvis.png";
+import hyperforge from "@/public/assets/images/hyperforge.png";
+
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -21,7 +26,7 @@ const Project = () => {
               <div>
                 <Image
                   className="w-full h-full object-contain"
-                  src={projectImage}
+                  src={connectopia}
                   alt="project1"
                 />
               </div>
@@ -31,7 +36,7 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Project</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 xl:-ml-16 rounded-md">
+              <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 xl:-ml-16 rounded-md">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                 facere nobis magnam incidunt est enim eligendi nihil velit,
                 commodi quibusdam,
@@ -80,7 +85,7 @@ const Project = () => {
               <div>
                 <Image
                   className="w-full h-full object-contain"
-                  src={projectImage}
+                  src={netflix}
                   alt="project1"
                 />
               </div>
@@ -90,7 +95,7 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Project</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16">
+              <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                 facere nobis magnam incidunt est enim eligendi nihil velit,
                 commodi quibusdam,
@@ -139,7 +144,7 @@ const Project = () => {
               <div>
                 <Image
                   className="w-full h-full object-contain"
-                  src={projectImage}
+                  src={hyperforge}
                   alt="project1"
                 />
               </div>
@@ -149,9 +154,68 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Project</h3>
-              <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 xl:-ml-16 border border-2 rounded-md">
+              <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 xl:-ml-16 rounded-md">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                 facere nobis magnam incidunt est enim eligen nihil velit,
+                commodi quibusdam,
+                <span className="text-textGreen">
+                  asperiores aliquam ut nisi illo ratione
+                </span>
+                illum saepe, nesciunt perferendis?
+              </p>
+              <ul
+                className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 
+            md:gap-5 justify-between text-textDark"
+              >
+                <li>Nextjs</li>
+                <li>TypeScript</li>
+                <li>Next-auth</li>
+                <li>Tailwind</li>
+                <li>Vercel Deployment</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a
+                  className="hover:text-textGreen duration-300"
+                  href="https://github.com/disha2301"
+                  target="_blank"
+                >
+                  <TbBrandGithub />
+                </a>
+                <a
+                  className="hover:text-textGreen duration-300"
+                  href="https://github.com/disha2301"
+                  target="_blank"
+                >
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project 4 */}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className=" flex flex-col xl:flex-row-reverse gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://github.com/disha2301"
+              target="_blank"
+            >
+              <div>
+                <Image
+                  className="w-full h-full object-contain"
+                  src={jarvis}
+                  alt="project1"
+                />
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Project</h3>
+              <p className="bg-[#180b63e6] text-sm md:text-base p-2 md:p-6 rounded-md xl:-mr-16">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                facere nobis magnam incidunt est enim eligendi nihil velit,
                 commodi quibusdam,
                 <span className="text-textGreen">
                   asperiores aliquam ut nisi illo ratione

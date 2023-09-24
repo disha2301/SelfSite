@@ -23,36 +23,31 @@ const WorkD = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          GDSC Solution Challenge, Deployed our own Solution Challenge Portal
+          for the Students to register for the solution Challenge.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          Deployed our own Solution Challenge Portal for the Students to
+          register for the solution Challenge.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          Built using Next 13, TypeScript and Tailwind CSS.
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet
-          voluptatum distinctio ratione explicabo iusto! Officiis temporibus
-          aliquam harum hic totam.
+          Successfully Completed the Google Featured Generative AI Arcade Game
+          and The Google Cloud Computing Foundations.
         </li>
       </ul>
     </motion.div>
