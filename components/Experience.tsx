@@ -9,7 +9,7 @@ const Experience = () => {
   const [workA, setWorkA] = useState(false);
   const [workB, setWorkB] = useState(false);
   const [workC, setWorkC] = useState(false);
-  const [workD, setWorkD] = useState(true);
+  const [workD, setWorkD] = useState(false);
 
   const handleA = () => {
     setWorkA(true);
