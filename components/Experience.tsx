@@ -51,7 +51,7 @@ const Experience = () => {
               workD
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#295298] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             GDSC
           </li>
@@ -61,7 +61,7 @@ const Experience = () => {
               workC
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#295298] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             TEDx
           </li>
@@ -71,7 +71,7 @@ const Experience = () => {
               workB
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#295298] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             IEEE
           </li>
@@ -81,7 +81,7 @@ const Experience = () => {
               workA
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#295298] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             ADS
           </li>

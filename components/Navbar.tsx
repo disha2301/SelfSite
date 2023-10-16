@@ -1,4 +1,5 @@
 import { logo } from "@/public/assets";
+import logogo from "@/public/assets/images/logogo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -45,7 +46,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <Image className="w-14" src={logo} alt="logo" />
+            <Image className="w-14" src={logogo} alt="logo" />
           </motion.div>
         </Link>
         <div className="hidden mdl:inline-flex items-center gap-7">
@@ -159,7 +160,7 @@ const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative"
+              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-bodyColor flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={() => setShow(false)}

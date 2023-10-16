@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>Disha&apos;s</title>
-        <link rel="icon" href="/dishaslogo.jpg"></link>
+        <link rel="icon" href="/logogo.svg"></link>
       </Head>
       <main
         className="w-full h-screen font-bodyFont bg-bodyColor text-textLight 
