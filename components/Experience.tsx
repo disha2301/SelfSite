@@ -2,11 +2,11 @@ import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import WorkA from "./works/WorkA";
 import WorkB from "./works/WorkB";
-import WorkC from "./works/WorkC";
 import WorkD from "./works/WorkD";
+import WorkC from "./works/WorkC";
 
 const Experience = () => {
-  const [workA, setWorkA] = useState(false);
+  const [workA, setWorkA] = useState(true);
   const [workB, setWorkB] = useState(false);
   const [workC, setWorkC] = useState(false);
   const [workD, setWorkD] = useState(false);
