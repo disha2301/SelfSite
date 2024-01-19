@@ -3,7 +3,7 @@ import SectionTitle from "./SectionTitle";
 import WorkA from "./works/WorkA";
 import WorkB from "./works/WorkB";
 import WorkC from "./works/WorkC";
-import WorkD from "./works/WorkD";
+import WorkE from "./works/WorkE";
 
 const Experience = () => {
   const [workA, setWorkA] = useState(true);
@@ -86,7 +86,7 @@ const Experience = () => {
             ADS
           </li>
         </ul>
-        {workD && <WorkD />}
+        {workD && <WorkE />}
         {workC && <WorkC />}
         {workB && <WorkB />}
         {workA && <WorkA />}
