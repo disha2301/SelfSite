@@ -2,41 +2,106 @@
 
 ![image](https://github.com/user-attachments/assets/802f845c-d133-4133-a5b8-2f1ecb612f2e)
 
+![image](https://github.com/user-attachments/assets/03719024-3224-4830-bd6b-97bd664c8c6b)
 
 
-## Getting Started
 
-First, run the development server:
+# **Disha Yadav - Portfolio** 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Welcome to the official portfolio website of **Disha Yadav**, a passionate developer! This site highlights my skills, projects, and contributions to the tech world. Feel free to explore and connect with me! ✨
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## **Getting Started** 💻
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To run this project locally, follow the steps below:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. **Install dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-## Learn More
+2. **Start the development server:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **View the project in your browser** by visiting [http://localhost:3000](http://localhost:3000).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This will open the application locally and auto-refresh as you make changes.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **Mobile View** 📱
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The portfolio is fully responsive and optimized for all devices:
+
+- On mobile, the layout adapts perfectly for smaller screens.
+- A hamburger menu simplifies navigation.
+- Key sections like **About**, **Projects**, and **Contact** are mobile-friendly for easy interaction.
+
+Enjoy a smooth browsing experience, no matter the device you're on!
+
+
+![image](https://github.com/user-attachments/assets/f052c34f-9969-4bc6-a31a-31d1458e0508)
+
+
+---
+
+## **Tech Stack** 🛠️
+
+This project is built with the following technologies:
+
+- **Next.js**: A powerful React framework for building modern web applications 🚀
+- **TypeScript**: A superset of JavaScript to help you write reliable, scalable code 📝
+- **Tailwind CSS**: A utility-first CSS framework for fast and efficient styling 🎨
+- **Sanity.io**: A flexible headless CMS for dynamic content management 📦
+- **Vercel**: Hosting the project for fast, reliable, and serverless deployment ⚡
+
+---
+
+## **Key Features** 🌟
+
+This portfolio includes the following features:
+
+- **Responsive Design**: Optimized layout for desktops, tablets, and mobile devices 📱💻
+- **Project Showcase**: A section to display personal and professional projects 🖥️
+- **Smooth Navigation**: Easy-to-use, intuitive navigation for a seamless experience 🔍
+- **Contact Form**: Reach out for collaborations and inquiries ✉️
+- **SEO Optimized**: Built with SEO best practices to enhance search engine visibility 🌐
+
+---
+
+## **Learn More** 📚
+
+To explore more about Next.js and how this project is built, visit:
+
+- [Next.js Documentation](https://nextjs.org/docs) 📖
+- [Learn Next.js](https://nextjs.org/learn) - Interactive tutorial to dive deeper into Next.js 🏫
+
+---
+
+## **Deployment** 🚀
+
+The portfolio is deployed using **Vercel**, ensuring high performance and easy scaling. Learn more about deploying Next.js apps with [Vercel](https://nextjs.org/docs/deployment).
+
+---
+
+## **Contact** 📬
+
+If you'd like to connect, feel free to reach out:
+
+- **Email**: dishayadav383@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/disha-yadav-bb5478221/
+
+
