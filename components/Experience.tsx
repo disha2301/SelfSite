@@ -58,7 +58,7 @@ const Experience = () => {
       id="experience"
       className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
     >
-      <SectionTitle title="Disha's professional journey" titleNo="02" />
+      <SectionTitle title="Disha's journey started here" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
