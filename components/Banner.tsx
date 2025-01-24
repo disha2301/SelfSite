@@ -30,12 +30,14 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-justify md:max-w-[650px] font-medium"
       >
-        This website spills the beans about Disha Yadav, the CSE undergrad
-        who&apos;s currently rocking her BTech in computer science engineering
-        with a focus on cloud computing at SRM Institute of Science and
-        Technology. When she&apos;s not cracking codes, she&apos;s out there on
-        a wild adventure to quench her insatiable thirst for knowledge. Coding
-        is her version of a leisurely stroll in the park!{" "}
+        Meet Disha Yadav, a CSE undergrad on a mission to conquer the tech
+        world! Currently pursuing her BTech in Computer Science Engineering with
+        a specialization in Cloud Computing at SRM Institute of Science and
+        Technology, she&apos;s all about turning her passion for coding into
+        pure magic. When she&apos;s not busy crafting innovative solutions,
+        you&apos;ll find her diving headfirst into new adventures, fueled by an
+        unquenchable thirst for knowledge. For Disha, coding isn&apos;t just
+        work—it&apos;s her ultimate playground!{" "}
         <a href="/assets/disha.pdf" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
