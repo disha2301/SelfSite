@@ -23,7 +23,7 @@ const WorkD = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Supported J.P. Morgan's Mid-Cap Investment Banking and the US Front
+          Supported J.P. Morgan Mid-Cap Investment Banking and the US Front
           Office for the North America region, providing strategic financial
           insights following agile methedology and enabling impactful client
           outcomes with hands-on experience and understanding of software
